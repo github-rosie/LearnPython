@@ -4,6 +4,7 @@ from LearnPython.mock_examples.calculator import calculate
 from LearnPython.mock_examples.area import area_of_circle
 
 
+
 ################# Mock Constants or Variables #################
 
 def test_area_of_circle(mocker):
@@ -29,5 +30,6 @@ def test_calculate_subtract(mocker):
     result = calculate('subtract', 5, 9)
     mock_subtract.assert_called_once_with(5, 9)
     assert result == -4
+
 
 
