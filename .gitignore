@@ -1,0 +1,13 @@
+# Create a .gitignore file
+echo "__pycache__/
+*.py[cod]
+*$py.class
+
+venv/
+env/
+ENV/
+
+*.egg-info/
+dist/
+build/
+" > .gitignore
